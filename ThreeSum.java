@@ -6,6 +6,7 @@ public class ThreeSum{
         int arr[] = {-1,0,1,2,-1,-4};
         threeSum(arr,l);
         System.out.println(l);
+        System.out.println(Integer.MIN_VALUE/10);
     }
     public static void threeSum(int a[],List<List<Integer>> l){
         int n = a.length;
