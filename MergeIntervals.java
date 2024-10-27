@@ -11,6 +11,8 @@ public class MergeIntervals{
                 System.out.print(arr[i][j]+" ");
             }
         }
+        System.out.println();
+        System.out.println(Integer.MAX_VALUE);
     }
     public static int[][] intervals(int a[][]){
         Arrays.sort(a,(x,y) ->Integer.compare(x[0],y[0]));
